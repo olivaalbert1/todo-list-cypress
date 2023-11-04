@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Testing to-do list app with Cypress
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,6 +13,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm run cypress:open`
+
+Launches the cypress test runner in the interactive watch mode.\
+See the section about [running cypress tests](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) for more information.
 
 ### `npm test`
 
