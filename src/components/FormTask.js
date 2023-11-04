@@ -26,6 +26,7 @@ function FormTask(props) {
         <form className="FormTask">
             <input
                 className="input-task"
+                data-test="new-todo"
                 type='text'
                 placeholder="Write a task"
                 name="text"
