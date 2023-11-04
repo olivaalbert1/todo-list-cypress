@@ -37,14 +37,14 @@ describe('todo-list app', () => {
 
     })
 
-    // it('delete first item', () => {
-    //     const newItem = 'Feed the cat'
-    //     cy.get('[data-test=new-todo]').type(`${newItem}{enter}`)
+    it('delete first item', () => {
+        const newItem = 'Feed the cat'
+        cy.get('[data-test=new-todo]').type(`${newItem}{enter}`)
 
-    //     cy.get('.icon-task-container')
-    //         .click()
+        cy.get('.icon-task-container')
+            .click()
         
-    //     cy.get('.task-list-container')
-    //         .should('not.be.visible')
-    // })
+        cy.get('.task-list-container')
+            .should('not.be.visible')
+    })
 })
